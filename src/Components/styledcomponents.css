@@ -1,0 +1,17 @@
+/* HEADER COMPONENT */
+
+.light__dark-mode-i {
+    font-size: 1.75rem;
+    color: #000;
+    background-color: rgb(226 232 240);
+    padding: 0.25rem;
+    border-radius: 9999px;
+    transition: .7s;
+    cursor: pointer;
+}
+
+[data-theme="dark"] {
+    background-color: purple;
+    color: white;
+    transition: 450ms ease-in-out;
+}
